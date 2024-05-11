@@ -1,0 +1,46 @@
+@value colors: "./variables.scss";
+@value customBlue, customDarkBlue, customGreen, customDarkGreen, customGrey, customDarkGrey, customRed, customDarkRed from colors;
+
+.card_hover {
+    transform: scale(1.2);
+}
+
+.card_header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    // background-color: $color;
+}
+
+.card_price {
+    margin: 1px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    // background-color: #20f5e3;
+    color: white;
+    font-size: 48px;
+}
+
+span {
+    font-size: 14px;
+}
+
+.card_speed {
+    padding: 20px 0;
+    margin: 1px;
+    color: rgb(100, 99, 99);
+
+}
+
+.card_info {
+    padding: 15px 0;
+    margin: 1px;
+    color: rgb(100, 99, 99);
+    background-color: rgb(233, 233, 233);
+}
+
+.transform {
+    transform: scale(1.2);
+}
