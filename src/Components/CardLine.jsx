@@ -1,7 +1,7 @@
 import React from "react";
 import rates from '../rates.json';
 import Card from "./Card";
-import styles from './cardLine.module.scss'
+import styles from './cardLine.module.css'
 
 function CardLine(props) {
     return (<div className={styles.container}>
