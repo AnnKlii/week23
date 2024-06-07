@@ -1,21 +1,16 @@
 .card {
     box-shadow: 0 0 5px rgb(173, 173, 173);
-
-}
-
-.card_hover {
-    transform: scale(1.2);
 }
 
 .card_header {
     padding: 10px;
-    margin: 1px;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
 .card_price {
-    margin: 1px;
+    margin: auto;
     padding: 40px 10px;
     color: white;
     font-size: 48px;
@@ -27,14 +22,20 @@ span {
 
 .card_speed {
     padding: 20px 10px;
-    margin: 1px;
+    margin: auto;
     color: rgb(100, 99, 99);
+    background-color: white;
 
 }
 
 .card_info {
     padding: 15px 10px;
-    margin: 1px;
+    margin: auto;
     color: rgb(100, 99, 99);
     background-color: rgb(233, 233, 233);
+}
+
+.transform {
+    transform: scale(1.1);
+    outline: none;
 }
